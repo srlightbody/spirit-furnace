@@ -8,19 +8,19 @@ k9s:
   body:
     fgColor: "#f6e7cb"
     bgColor: "#261207"
-    logoColor: "#f7d98e"
+    logoColor: "#a9e3c9"
   prompt:
     fgColor: "#f6e7cb"
     bgColor: "#261207"
     suggestColor: "#e48a45"
   info:
-    fgColor: "#f7d98e"
+    fgColor: "#a9e3c9"
     sectionColor: "#f6e7cb"
   dialog:
     fgColor: "#f6e7cb"
     bgColor: "#261207"
     buttonFgColor: "#261207"
-    buttonBgColor: "#f7d98e"
+    buttonBgColor: "#a9e3c9"
     buttonFocusFgColor: "#261207"
     buttonFocusBgColor: "#9dc957"
     labelFgColor: "#ebb944"
@@ -36,9 +36,9 @@ k9s:
     crumbs:
       fgColor: "#261207"
       bgColor: "#806c55"
-      activeColor: "#f7d98e"
+      activeColor: "#a9e3c9"
     status:
-      newColor: "#f7d98e"
+      newColor: "#a9e3c9"
       modifyColor: "#749ad2"
       addColor: "#9dc957"
       errorColor: "#f5502a"
@@ -50,15 +50,15 @@ k9s:
       bgColor: "#261207"
       highlightColor: "#ebb944"
       counterColor: "#e48a45"
-      filterColor: "#f7d98e"
+      filterColor: "#a9e3c9"
   views:
     charts:
       bgColor: "#261207"
       defaultDialColors:
-        - "#f7d98e"
+        - "#a9e3c9"
         - "#f5502a"
       defaultChartColors:
-        - "#f7d98e"
+        - "#a9e3c9"
         - "#f5502a"
     table:
       fgColor: "#f6e7cb"
@@ -73,7 +73,7 @@ k9s:
       fgColor: "#f6e7cb"
       bgColor: "#261207"
       cursorColor: "#303321"
-      graphicColor: "#f7d98e"
+      graphicColor: "#a9e3c9"
     yaml:
       keyColor: "#749ad2"
       colonColor: "#9a8467"
@@ -82,5 +82,5 @@ k9s:
       fgColor: "#f6e7cb"
       bgColor: "#261207"
       indicator:
-        fgColor: "#f7d98e"
+        fgColor: "#a9e3c9"
         bgColor: "#261207"

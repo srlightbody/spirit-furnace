@@ -2,33 +2,33 @@
 # spirit furnace: mineral pigments over a furnace-lit dark
 
 [colors.primary]
-background = "#e6dcc6"
-foreground = "#3a2e22"
+background = "#c9b98f"
+foreground = "#2d2216"
 
 [colors.cursor]
-text   = "#e6dcc6"
-cursor = "#a92c18"
+text   = "#c9b98f"
+cursor = "#951300"
 
 [colors.selection]
-text       = "#5a4a38"
-background  = "#c9b48e"
+text       = "#443524"
+background  = "#b9ceac"
 
 [colors.normal]
-black   = "#cabfa6"
-red     = "#a92c18"
-green   = "#3f6414"
-yellow  = "#795a00"
-blue    = "#2e5a9b"
-magenta = "#943e50"
-cyan    = "#1a664a"
-white   = "#5a4a38"
+black   = "#ae9d70"
+red     = "#951300"
+green   = "#305400"
+yellow  = "#634500"
+blue    = "#1d4988"
+magenta = "#673575"
+cyan    = "#00563b"
+white   = "#443524"
 
 [colors.bright]
-black   = "#8c7c66"
-red     = "#c1341d"
-green   = "#4a741a"
-yellow  = "#846200"
-blue    = "#3668b1"
-magenta = "#a9485c"
-cyan    = "#217656"
-white   = "#3a2e22"
+black   = "#7c6c56"
+red     = "#a51000"
+green   = "#325b00"
+yellow  = "#6e4c00"
+blue    = "#1f5197"
+magenta = "#723a82"
+cyan    = "#005d3f"
+white   = "#2d2216"

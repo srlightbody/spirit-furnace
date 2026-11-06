@@ -2,7 +2,7 @@
   "dark": {
     "mPrimary": "#9dc957",
     "mOnPrimary": "#261207",
-    "mSecondary": "#f7d98e",
+    "mSecondary": "#a9e3c9",
     "mOnSecondary": "#261207",
     "mTertiary": "#e48a45",
     "mOnTertiary": "#261207",
@@ -25,7 +25,7 @@
         "green": "#9dc957",
         "yellow": "#ebb944",
         "blue": "#749ad2",
-        "magenta": "#ea9297",
+        "magenta": "#cc95dc",
         "cyan": "#58b98a",
         "white": "#dcceb4"
       },
@@ -35,11 +35,11 @@
         "green": "#bae183",
         "yellow": "#ffd579",
         "blue": "#92b3e4",
-        "magenta": "#fdb0b3",
+        "magenta": "#e2b2f0",
         "cyan": "#81d0a6",
         "white": "#f6e7cb"
       },
-      "cursor": "#f7d98e",
+      "cursor": "#a9e3c9",
       "cursorText": "#261207",
       "selectionFg": "#dcceb4",
       "selectionBg": "#303321"
@@ -48,7 +48,7 @@
   "light": {
     "mPrimary": "#9dc957",
     "mOnPrimary": "#261207",
-    "mSecondary": "#f7d98e",
+    "mSecondary": "#a9e3c9",
     "mOnSecondary": "#261207",
     "mTertiary": "#e48a45",
     "mOnTertiary": "#261207",
@@ -71,7 +71,7 @@
         "green": "#9dc957",
         "yellow": "#ebb944",
         "blue": "#749ad2",
-        "magenta": "#ea9297",
+        "magenta": "#cc95dc",
         "cyan": "#58b98a",
         "white": "#dcceb4"
       },
@@ -81,11 +81,11 @@
         "green": "#bae183",
         "yellow": "#ffd579",
         "blue": "#92b3e4",
-        "magenta": "#fdb0b3",
+        "magenta": "#e2b2f0",
         "cyan": "#81d0a6",
         "white": "#f6e7cb"
       },
-      "cursor": "#f7d98e",
+      "cursor": "#a9e3c9",
       "cursorText": "#261207",
       "selectionFg": "#dcceb4",
       "selectionBg": "#303321"

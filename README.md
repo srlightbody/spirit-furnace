@@ -11,25 +11,25 @@ system it shares.
 
 | Role | furnace | paper | Use |
 |---|---|---|---|
-| base (bg) | `#261207` | `#e6dcc6` | lacquered rosewood / aged rice paper |
-| text | `#f6e7cb` | `#3a2e22` | scripture |
-| incense | `#9a8467` | `#6e5f4c` | comments, operators |
-| ash | `#806c55` | `#8c7c66` | line numbers, quiet chrome |
-| heaven | `#749ad2` | `#2e5a9b` | keywords (azurite sky) |
-| jade | `#58b98a` | `#1a664a` | functions (qi) |
-| elixir | `#ebb944` | `#795a00` | strings, numbers, constants (gamboge pills) |
-| blossom | `#ea9297` | `#943e50` | types, properties (peach blossom) |
-| furnace | `#e48a45` | `#8e4717` | params, directives, links (refining fire) |
-| core | `#f7d98e` | `#59623b` | titles, directories, focus (golden core; bronze patina on paper) |
-| tribulation | `#f5502a` | `#a92c18` | errors (cinnabar) |
-| herb | `#9dc957` | `#3f6414` | added, ok (spirit herb) |
-| cursor | `#f7d98e` | `#a92c18` | core gold / cinnabar seal |
+| base (bg) | `#261207` | `#c9b98f` | lacquered rosewood / old scroll |
+| text | `#f6e7cb` | `#2d2216` | scripture |
+| incense | `#9a8467` | `#5e503d` | comments, operators |
+| ash | `#806c55` | `#7c6c56` | line numbers, quiet chrome |
+| heaven | `#749ad2` | `#1d4988` | keywords (azurite sky) |
+| jade | `#58b98a` | `#00563b` | functions (qi) |
+| elixir | `#ebb944` | `#634500` | strings, numbers, constants (gamboge pills) |
+| blossom | `#cc95dc` | `#673575` | types, properties (wisteria) |
+| furnace | `#e48a45` | `#7b3600` | params, directives, links (refining fire) |
+| core | `#a9e3c9` | `#683f4c` | titles, directories, focus (celadon qi glow; ink-lacquer on paper) |
+| tribulation | `#f5502a` | `#951300` | errors (cinnabar) |
+| herb | `#9dc957` | `#305400` | added, ok (spirit herb) |
+| cursor | `#a9e3c9` | `#951300` | qi glow / cinnabar seal |
 
 ### 16-color ANSI (furnace)
 
 ```
-normal   0 #492b1a  1 #f5502a  2 #9dc957  3 #ebb944  4 #749ad2  5 #ea9297  6 #58b98a  7 #dcceb4
-bright   8 #806c55  9 #ff795a 10 #bae183 11 #ffd579 12 #92b3e4 13 #fdb0b3 14 #81d0a6 15 #f6e7cb
+normal   0 #492b1a  1 #f5502a  2 #9dc957  3 #ebb944  4 #749ad2  5 #cc95dc  6 #58b98a  7 #dcceb4
+bright   8 #806c55  9 #ff795a 10 #bae183 11 #ffd579 12 #92b3e4 13 #e2b2f0 14 #81d0a6 15 #f6e7cb
 ```
 
 ## Variants
@@ -38,7 +38,7 @@ bright   8 #806c55  9 #ff795a 10 #bae183 11 #ffd579 12 #92b3e4 13 #fdb0b3 14 #81
 |---------|-----------|-----------------------|
 | furnace *(default)* | `#261207` | lacquered rosewood brown, lit from the furnace |
 | lifted | `#2e170c` | furnace, tuned for a basic laptop LCD |
-| paper | `#e6dcc6` | muted aged rice paper, light |
+| paper | `#c9b98f` | old yellowed scroll, dim light |
 
 ![furnace](assets/preview-furnace.png)
 ![lifted](assets/preview-lifted.png)
@@ -313,6 +313,6 @@ files = ["/usr/share/umbriel/config.toml", "~/.config/umbriel/spirit-furnace.tom
 - ANSI: 4/12 heaven (blue), 5/13 blossom (magenta), 6/14 jade (cyan). `furnace`
   and `core` have no ANSI slot; nvim accents and the 16-color ANSI don't have
   to match.
-- Paper darkens every pigment to roughly 5:1 on the paper base. Its `core` is
-  bronze patina instead of gold, since two golds can't stay distinct at that
-  contrast.
+- Paper is a dim, yellowed scroll (well below white). Every pigment is re-fit to
+  roughly 4.5:1 on it, and its `core` is ink-lacquer instead of celadon, since
+  greens and golds crowd at that contrast.

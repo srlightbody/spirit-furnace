@@ -8,10 +8,10 @@ author = "Sam Lightbody"
 [colors]
 foreground = "#f6e7cb"
 background = "#2e170c"
-cursor_bg = "#f7d98e"
+cursor_bg = "#a9e3c9"
 cursor_fg = "#2e170c"
-cursor_border = "#f7d98e"
+cursor_border = "#a9e3c9"
 selection_fg = "#dcceb4"
 selection_bg = "#363725"
-ansi = ["#583926", "#f5502a", "#9dc957", "#ebb944", "#749ad2", "#ea9297", "#58b98a", "#dcceb4"]
-brights = ["#806c55", "#ff795a", "#bae183", "#ffd579", "#92b3e4", "#fdb0b3", "#81d0a6", "#f6e7cb"]
+ansi = ["#583926", "#f5502a", "#9dc957", "#ebb944", "#749ad2", "#cc95dc", "#58b98a", "#dcceb4"]
+brights = ["#806c55", "#ff795a", "#bae183", "#ffd579", "#92b3e4", "#e2b2f0", "#81d0a6", "#f6e7cb"]

@@ -5,20 +5,20 @@
 	"description": "Xianxia: mineral pigments and pill-furnace gold over warm dark earth.",
 	"theme": {
 		"colors": {
-			"frame": [230, 220, 198],
-			"frame_inactive": [226, 214, 190],
-			"frame_incognito": [202, 191, 166],
-			"frame_incognito_inactive": [216, 202, 174],
-			"toolbar": [221, 209, 183],
-			"tab_text": [58, 46, 34],
-			"tab_background_text": [140, 124, 102],
-			"background_tab_text": [140, 124, 102],
-			"bookmark_text": [90, 74, 56],
-			"ntp_background": [230, 220, 198],
-			"ntp_text": [58, 46, 34],
-			"ntp_link": [46, 90, 155],
-			"ntp_header": [202, 191, 166],
-			"control_background": [202, 191, 166]
+			"frame": [201, 185, 143],
+			"frame_inactive": [197, 180, 136],
+			"frame_incognito": [174, 157, 112],
+			"frame_incognito_inactive": [188, 170, 122],
+			"toolbar": [193, 176, 130],
+			"tab_text": [45, 34, 22],
+			"tab_background_text": [124, 108, 86],
+			"background_tab_text": [124, 108, 86],
+			"bookmark_text": [68, 53, 36],
+			"ntp_background": [201, 185, 143],
+			"ntp_text": [45, 34, 22],
+			"ntp_link": [29, 73, 136],
+			"ntp_header": [174, 157, 112],
+			"control_background": [174, 157, 112]
 		},
 		"tints": {
 			"buttons": [-1, -1, 0.9]

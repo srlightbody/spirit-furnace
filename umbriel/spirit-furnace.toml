@@ -6,27 +6,27 @@ background = "#261207ff"
 backdrop = "#261207ff"
 text_primary = "#f6e7cbff"
 text_muted = "#806c55ff"
-accent_primary = "#f7d98eff"
+accent_primary = "#a9e3c9ff"
 accent_secondary = "#ebb944ff"
 error = "#f5502aff"
 warning = "#ebb944ff"
-insert_hint = "#f7d98e80"
+insert_hint = "#a9e3c980"
 shadow = "#1e09027f"
 
 [colors.border]
-focused = "#f7d98eff"
+focused = "#a9e3c9ff"
 unfocused = "#664534ff"
 outer = "#1e0902ff"
 
 [colors.overview]
 background_tint = "#1e090230"
-badge = "#f7d98eff"
+badge = "#a9e3c9ff"
 workspace_background = "#1e090244"
 
 [colors.tab_bar]
 background = "#33190bff"
 text = "#806c55ff"
-active = "#f7d98eff"
+active = "#a9e3c9ff"
 active_text = "#261207ff"
 active_unfocused = "#432310ff"
 active_unfocused_text = "#f6e7cbff"

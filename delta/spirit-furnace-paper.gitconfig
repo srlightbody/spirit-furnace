@@ -9,21 +9,21 @@
 	syntax-theme = spirit-furnace-paper
 	line-numbers = true
 
-	minus-style = syntax "#d7b09a"
-	minus-emph-style = syntax "#ce9680"
-	plus-style = syntax "#bcbe9a"
-	plus-emph-style = syntax "#a3ac7f"
+	minus-style = syntax "#bc906b"
+	minus-emph-style = syntax "#b47756"
+	plus-style = syntax "#a3a06b"
+	plus-emph-style = syntax "#8c9156"
 
-	line-numbers-minus-style = "#a92c18"
-	line-numbers-plus-style = "#3f6414"
-	line-numbers-zero-style = "#8c7c66"
-	line-numbers-left-style = "#cabfa6"
-	line-numbers-right-style = "#cabfa6"
+	line-numbers-minus-style = "#951300"
+	line-numbers-plus-style = "#305400"
+	line-numbers-zero-style = "#7c6c56"
+	line-numbers-left-style = "#ae9d70"
+	line-numbers-right-style = "#ae9d70"
 
-	file-style = "#59623b" bold
-	file-decoration-style = "#cabfa6" ul
-	hunk-header-style = "#8e4717" bold
-	hunk-header-decoration-style = "#cabfa6" box
+	file-style = "#683f4c" bold
+	file-decoration-style = "#ae9d70" ul
+	hunk-header-style = "#7b3600" bold
+	hunk-header-decoration-style = "#ae9d70" box
 
 	zero-style = syntax
-	whitespace-error-style = "#a92c18" reverse
+	whitespace-error-style = "#951300" reverse
