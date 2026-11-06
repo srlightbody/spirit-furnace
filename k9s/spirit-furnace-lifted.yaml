@@ -27,7 +27,7 @@ k9s:
     fieldFgColor: "#f6e7cb"
   frame:
     border:
-      fgColor: "#583926"
+      fgColor: "#3b4832"
       focusColor: "#58b98a"
     menu:
       fgColor: "#f6e7cb"
@@ -35,7 +35,7 @@ k9s:
       numKeyColor: "#e48a45"
     crumbs:
       fgColor: "#2e170c"
-      bgColor: "#806c55"
+      bgColor: "#627665"
       activeColor: "#a9e3c9"
     status:
       newColor: "#a9e3c9"
@@ -44,7 +44,7 @@ k9s:
       errorColor: "#f5502a"
       highlightColor: "#ebb944"
       killColor: "#e48a45"
-      completedColor: "#806c55"
+      completedColor: "#627665"
     title:
       fgColor: "#f6e7cb"
       bgColor: "#2e170c"
@@ -64,7 +64,7 @@ k9s:
       fgColor: "#f6e7cb"
       bgColor: "#2e170c"
       cursorFgColor: "#f6e7cb"
-      cursorBgColor: "#363725"
+      cursorBgColor: "#002e3a"
       header:
         fgColor: "#f6e7cb"
         bgColor: "#2e170c"
@@ -72,11 +72,11 @@ k9s:
     xray:
       fgColor: "#f6e7cb"
       bgColor: "#2e170c"
-      cursorColor: "#363725"
+      cursorColor: "#002e3a"
       graphicColor: "#a9e3c9"
     yaml:
       keyColor: "#749ad2"
-      colonColor: "#9a8467"
+      colonColor: "#75907a"
       valueColor: "#f6e7cb"
     logs:
       fgColor: "#f6e7cb"

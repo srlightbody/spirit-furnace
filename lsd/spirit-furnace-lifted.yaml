@@ -2,36 +2,36 @@
 # place at ~/.config/lsd/colors.yaml (lsd reads it directly), or point lsd at it.
 
 user: "#ebb944"
-group: "#806c55"
+group: "#627665"
 permission:
   read: "#cc95dc"
   write: "#ebb944"
   exec: "#f5502a"
   exec-sticky: "#e48a45"
-  no-access: "#806c55"
+  no-access: "#627665"
   octal: "#a9e3c9"
   acl: "#a9e3c9"
   context: "#e48a45"
 date:
   hour-old: "#a9e3c9"
   day-old: "#a9e3c9"
-  older: "#806c55"
+  older: "#627665"
 size:
-  none: "#806c55"
+  none: "#627665"
   small: "#cc95dc"
   medium: "#ebb944"
   large: "#f5502a"
 inode:
   valid: "#e48a45"
-  invalid: "#806c55"
+  invalid: "#627665"
 links:
   valid: "#e48a45"
-  invalid: "#806c55"
-tree-edge: "#583926"
+  invalid: "#627665"
+tree-edge: "#3b4832"
 git-status:
   default: "#f6e7cb"
-  unmodified: "#806c55"
-  ignored: "#806c55"
+  unmodified: "#627665"
+  ignored: "#627665"
   new-in-index: "#9dc957"
   new-in-workdir: "#9dc957"
   typechange: "#ebb944"

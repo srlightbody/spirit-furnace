@@ -16,14 +16,14 @@
 
 	line-numbers-minus-style = "#f5502a"
 	line-numbers-plus-style = "#9dc957"
-	line-numbers-zero-style = "#806c55"
-	line-numbers-left-style = "#492b1a"
-	line-numbers-right-style = "#492b1a"
+	line-numbers-zero-style = "#627665"
+	line-numbers-left-style = "#35442e"
+	line-numbers-right-style = "#35442e"
 
 	file-style = "#a9e3c9" bold
-	file-decoration-style = "#492b1a" ul
+	file-decoration-style = "#35442e" ul
 	hunk-header-style = "#e48a45" bold
-	hunk-header-decoration-style = "#492b1a" box
+	hunk-header-decoration-style = "#35442e" box
 
 	zero-style = syntax
 	whitespace-error-style = "#f5502a" reverse

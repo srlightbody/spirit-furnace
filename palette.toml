@@ -7,10 +7,10 @@
 order = ["furnace", "lifted", "paper"]
 
 [accents]
-# warm neutrals: incense smoke for comments, ash for the quieter chrome,
-# aged-scripture paper for text.
-ash     = "#806c55"
-incense = "#9a8467"
+# neutrals: sage incense smoke for comments, jade-grey ash for the quieter
+# chrome, aged-scripture paper for text.
+ash     = "#627665"
+incense = "#75907a"
 text    = "#f6e7cb"
 
 # spirit furnace: a cultivator's pill furnace. Calm mineral pigments from
@@ -51,14 +51,14 @@ suffix       = ""
 comment      = ["furnace: lacquered rosewood brown, lit from the pill furnace (default)"]
 base         = "#261207"
 surface      = "#33190b"
-overlay      = "#432310"
+overlay      = "#2e2e1d"
 _nc          = "#1e0902"
 hl_low       = "#3f291c"
 hl_med       = "#664534"
 hl_high      = "#795846"
 inactive_tab = "#3f2516"
-border       = "#492b1a"
-selection    = "#303321"
+border       = "#35442e"
+selection    = "#003f4b"
 
 [variants.lifted]
 suffix       = "Lifted"
@@ -68,14 +68,14 @@ comment      = [
 ]
 base         = "#2e170c"
 surface      = "#412619"
-overlay      = "#5a3824"
+overlay      = "#353321"
 _nc          = "#271107"
 hl_low       = "#4b3226"
 hl_med       = "#6c4b3a"
 hl_high      = "#7f5e4c"
 inactive_tab = "#412718"
-border       = "#583926"
-selection    = "#363725"
+border       = "#3b4832"
+selection    = "#002e3a"
 
 [variants.paper]
 suffix       = "Paper"

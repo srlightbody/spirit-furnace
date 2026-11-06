@@ -6,8 +6,8 @@ local config = require("spirit-furnace.config")
 
 -- accents + neutrals, unless a variant overrides them
 local shared = {
-	ash = "#806c55",
-	incense = "#9a8467",
+	ash = "#627665",
+	incense = "#75907a",
 	text = "#f6e7cb",
 
 	tribulation = "#f5502a",
@@ -36,17 +36,17 @@ local shared = {
 local ramps = {
 	-- furnace: lacquered rosewood brown, lit from the pill furnace (default)
 	furnace = {
-		base = "#261207", surface = "#33190b", overlay = "#432310", _nc = "#1e0902",
+		base = "#261207", surface = "#33190b", overlay = "#2e2e1d", _nc = "#1e0902",
 		highlight_low = "#3f291c", highlight_med = "#664534", highlight_high = "#795846",
-		border = "#492b1a", selection = "#303321",
+		border = "#35442e", selection = "#003f4b",
 		_mode = "dark",
 	},
 	-- lifted: furnace with the floor raised and the steps widened, so the depth
 	-- survives on a basic laptop LCD instead of crushing to flat brown.
 	lifted = {
-		base = "#2e170c", surface = "#412619", overlay = "#5a3824", _nc = "#271107",
+		base = "#2e170c", surface = "#412619", overlay = "#353321", _nc = "#271107",
 		highlight_low = "#4b3226", highlight_med = "#6c4b3a", highlight_high = "#7f5e4c",
-		border = "#583926", selection = "#363725",
+		border = "#3b4832", selection = "#002e3a",
 		_mode = "dark",
 	},
 	-- paper: an old yellowed scroll, dimmed well below white so it never glares.

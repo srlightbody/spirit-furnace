@@ -18,9 +18,9 @@
 				<key>lineHighlight</key>
 				<string>#412718</string>
 				<key>selection</key>
-				<string>#363725</string>
+				<string>#002e3a</string>
 				<key>gutterForeground</key>
-				<string>#806c55</string>
+				<string>#627665</string>
 			</dict>
 		</dict>
 		<dict>
@@ -29,7 +29,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9a8467</string>
+				<string>#75907a</string>
 				<key>fontStyle</key>
 				<string>italic</string>
 			</dict>
@@ -76,7 +76,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9a8467</string>
+				<string>#75907a</string>
 			</dict>
 		</dict>
 		<dict>

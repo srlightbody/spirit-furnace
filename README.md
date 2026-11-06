@@ -13,8 +13,8 @@ system it shares.
 |---|---|---|---|
 | base (bg) | `#261207` | `#c9b98f` | lacquered rosewood / old scroll |
 | text | `#f6e7cb` | `#2d2216` | scripture |
-| incense | `#9a8467` | `#5e503d` | comments, operators |
-| ash | `#806c55` | `#7c6c56` | line numbers, quiet chrome |
+| incense | `#75907a` | `#5e503d` | comments, operators |
+| ash | `#627665` | `#7c6c56` | line numbers, quiet chrome |
 | heaven | `#749ad2` | `#1d4988` | keywords (azurite sky) |
 | jade | `#58b98a` | `#00563b` | functions (qi) |
 | elixir | `#ebb944` | `#634500` | strings, numbers, constants (gamboge pills) |
@@ -28,8 +28,8 @@ system it shares.
 ### 16-color ANSI (furnace)
 
 ```
-normal   0 #492b1a  1 #f5502a  2 #9dc957  3 #ebb944  4 #749ad2  5 #cc95dc  6 #58b98a  7 #dcceb4
-bright   8 #806c55  9 #ff795a 10 #bae183 11 #ffd579 12 #92b3e4 13 #e2b2f0 14 #81d0a6 15 #f6e7cb
+normal   0 #35442e  1 #f5502a  2 #9dc957  3 #ebb944  4 #749ad2  5 #cc95dc  6 #58b98a  7 #dcceb4
+bright   8 #627665  9 #ff795a 10 #bae183 11 #ffd579 12 #92b3e4 13 #e2b2f0 14 #81d0a6 15 #f6e7cb
 ```
 
 ## Variants
