@@ -1190,7 +1190,7 @@ local function set_highlights()
 	-- Mirrors the 16-color ANSI table the terminal themes ship.
 	if config.options.enable.terminal then
 		vim.g.terminal_color_0 = palette.border -- black
-		vim.g.terminal_color_8 = palette.ash -- bright black
+		vim.g.terminal_color_8 = palette.b_black -- bright black
 		vim.g.terminal_color_1 = palette.tribulation -- red
 		vim.g.terminal_color_9 = palette.b_red -- bright red
 		vim.g.terminal_color_2 = palette.herb -- green

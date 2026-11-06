@@ -21,6 +21,7 @@ local shared = {
 	cursor = "#a9e3c9",
 
 	-- bright ANSI, used only by the embedded terminal
+	b_black = "#35704c",
 	b_white7 = "#dcceb4",
 	b_red = "#ff795a",
 	b_green = "#bae183",
@@ -70,6 +71,7 @@ local ramps = {
 		cursor = "#951300",
 		bar = "#adab83",
 		bar_alt = "#9da37d",
+		b_black = "#7c6c56",
 		b_white7 = "#443524",
 		b_red = "#a51000",
 		b_green = "#325b00",

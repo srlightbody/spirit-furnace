@@ -34,10 +34,12 @@ cursor      = "#a9e3c9"
 bar         = "#2c4037"
 bar_alt     = "#1f332a"
 
-# bright ANSI (8..15); 8 = ash, 15 = text, plus normal-7 white.
+# bright ANSI (8..15); 8 = black, 15 = text, plus normal-7 white. 8 doubles as
+# Claude Code's panel / prompt-row background (ANSI themes), so it is deep malachite.
 # ANSI pairs: 1/9 tribulation, 2/10 herb, 3/11 elixir, 4/12 heaven,
 # 5/13 blossom, 6/14 jade. furnace and core have no ANSI slot.
 [bright]
+black   = "#35704c"
 white7  = "#dcceb4"
 red     = "#ff795a"
 green   = "#bae183"
@@ -115,6 +117,7 @@ bar         = "#adab83"
 bar_alt     = "#9da37d"
 
 [variants.paper.bright]
+black   = "#7c6c56"
 white7  = "#443524"
 red     = "#a51000"
 green   = "#325b00"
