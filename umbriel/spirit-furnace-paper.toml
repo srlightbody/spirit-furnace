@@ -1,0 +1,34 @@
+# Spirit Furnace Paper - umbriel
+# add to [include] files in config.toml, after your shared config:  "~/.config/umbriel/spirit-furnace-paper.toml"
+
+[colors]
+background = "#e6dcc6ff"
+backdrop = "#e6dcc6ff"
+text_primary = "#3a2e22ff"
+text_muted = "#8c7c66ff"
+accent_primary = "#59623bff"
+accent_secondary = "#795a00ff"
+error = "#a92c18ff"
+warning = "#795a00ff"
+insert_hint = "#59623b80"
+shadow = "#dfd5c07f"
+
+[colors.border]
+focused = "#59623bff"
+unfocused = "#bab2a2ff"
+outer = "#dfd5c0ff"
+
+[colors.overview]
+background_tint = "#dfd5c030"
+badge = "#59623bff"
+workspace_background = "#dfd5c044"
+
+[colors.tab_bar]
+background = "#ddd1b7ff"
+text = "#8c7c66ff"
+active = "#59623bff"
+active_text = "#e6dcc6ff"
+active_unfocused = "#d2c4a6ff"
+active_unfocused_text = "#3a2e22ff"
+urgent = "#a92c18ff"
+urgent_text = "#e6dcc6ff"

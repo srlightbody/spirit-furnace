@@ -1,0 +1,34 @@
+# Spirit Furnace Lifted - umbriel
+# add to [include] files in config.toml, after your shared config:  "~/.config/umbriel/spirit-furnace-lifted.toml"
+
+[colors]
+background = "#2e170cff"
+backdrop = "#2e170cff"
+text_primary = "#f6e7cbff"
+text_muted = "#806c55ff"
+accent_primary = "#f7d98eff"
+accent_secondary = "#ebb944ff"
+error = "#f5502aff"
+warning = "#ebb944ff"
+insert_hint = "#f7d98e80"
+shadow = "#2711077f"
+
+[colors.border]
+focused = "#f7d98eff"
+unfocused = "#6c4b3aff"
+outer = "#271107ff"
+
+[colors.overview]
+background_tint = "#27110730"
+badge = "#f7d98eff"
+workspace_background = "#27110744"
+
+[colors.tab_bar]
+background = "#412619ff"
+text = "#806c55ff"
+active = "#f7d98eff"
+active_text = "#2e170cff"
+active_unfocused = "#5a3824ff"
+active_unfocused_text = "#f6e7cbff"
+urgent = "#f5502aff"
+urgent_text = "#2e170cff"

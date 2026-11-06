@@ -1,0 +1,119 @@
+# Spirit Furnace: single source of truth for all app themes.
+# Edit here, then run `python build/build.py` to regenerate every app file.
+# Accents are shared across variants unless a variant overrides keys in its own
+# [variants.<name>.accents] / [variants.<name>.bright] tables.
+
+# order controls emission order in palette.lua
+order = ["furnace", "lifted", "paper"]
+
+[accents]
+# warm neutrals: incense smoke for comments, ash for the quieter chrome,
+# aged-scripture paper for text.
+ash     = "#806c55"
+incense = "#9a8467"
+text    = "#f6e7cb"
+
+# spirit furnace: a cultivator's pill furnace. Calm mineral pigments from
+# blue-green landscape painting carry the code; the bold signals are kept for
+# what needs to cut through (errors, cursor, search, git state).
+# heaven = azurite sky (keywords), jade = qi (functions), elixir = gamboge pills
+# (strings/numbers/constants), blossom = peach blossom (types/props/members),
+# furnace = refining fire (params/directives/links), core = golden core (UI
+# titles, directories, focus, cursor), tribulation = cinnabar (errors),
+# herb = spirit herb (positive/added).
+heaven      = "#749ad2"
+jade        = "#58b98a"
+elixir      = "#ebb944"
+blossom     = "#ea9297"
+furnace     = "#e48a45"
+core        = "#f7d98e"
+tribulation = "#f5502a"
+herb        = "#9dc957"
+cursor      = "#f7d98e"
+
+# bright ANSI (8..15); 8 = ash, 15 = text, plus normal-7 white.
+# ANSI pairs: 1/9 tribulation, 2/10 herb, 3/11 elixir, 4/12 heaven,
+# 5/13 blossom, 6/14 jade. furnace and core have no ANSI slot.
+[bright]
+white7  = "#dcceb4"
+red     = "#ff795a"
+green   = "#bae183"
+yellow  = "#ffd579"
+blue    = "#92b3e4"
+magenta = "#fdb0b3"
+cyan    = "#81d0a6"
+
+# delta diff backgrounds are computed per variant in build.py: tribulation/herb
+# blended onto that variant's base at 25% (line) and 40% (emph).
+
+[variants.furnace]
+suffix       = ""
+comment      = ["furnace: lacquered rosewood brown, lit from the pill furnace (default)"]
+base         = "#261207"
+surface      = "#33190b"
+overlay      = "#432310"
+_nc          = "#1e0902"
+hl_low       = "#3f291c"
+hl_med       = "#664534"
+hl_high      = "#795846"
+inactive_tab = "#3f2516"
+border       = "#492b1a"
+selection    = "#572d14"
+
+[variants.lifted]
+suffix       = "Lifted"
+comment      = [
+  "lifted: furnace with the floor raised and the steps widened, so the depth",
+  "survives on a basic laptop LCD instead of crushing to flat brown.",
+]
+base         = "#2e170c"
+surface      = "#412619"
+overlay      = "#5a3824"
+_nc          = "#271107"
+hl_low       = "#4b3226"
+hl_med       = "#6c4b3a"
+hl_high      = "#7f5e4c"
+inactive_tab = "#412718"
+border       = "#583926"
+selection    = "#6d4127"
+
+[variants.paper]
+suffix       = "Paper"
+mode         = "light"
+comment      = [
+  "paper: aged rice paper, muted so it never glares. Pigments darkened to ~5:1;",
+  "core becomes bronze patina since two golds can't stay distinct on paper.",
+]
+base         = "#e6dcc6"
+surface      = "#ddd1b7"
+overlay      = "#d2c4a6"
+_nc          = "#dfd5c0"
+hl_low       = "#d2ccbe"
+hl_med       = "#bab2a2"
+hl_high      = "#a69d89"
+inactive_tab = "#dcd2bc"
+border       = "#cabfa6"
+selection    = "#c9b48e"
+
+[variants.paper.accents]
+ash         = "#8c7c66"
+incense     = "#6e5f4c"
+text        = "#3a2e22"
+heaven      = "#2e5a9b"
+jade        = "#1a664a"
+elixir      = "#795a00"
+blossom     = "#943e50"
+furnace     = "#8e4717"
+core        = "#59623b"
+tribulation = "#a92c18"
+herb        = "#3f6414"
+cursor      = "#a92c18"
+
+[variants.paper.bright]
+white7  = "#5a4a38"
+red     = "#c1341d"
+green   = "#4a741a"
+yellow  = "#846200"
+blue    = "#3668b1"
+magenta = "#a9485c"
+cyan    = "#217656"

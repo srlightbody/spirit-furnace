@@ -1,0 +1,86 @@
+# Spirit Furnace - k9s skin
+# place in ~/.config/k9s/skins/spirit-furnace.yaml, then set in config.yaml:
+#   k9s:
+#     ui:
+#       skin: spirit-furnace
+
+k9s:
+  body:
+    fgColor: "#f6e7cb"
+    bgColor: "#261207"
+    logoColor: "#f7d98e"
+  prompt:
+    fgColor: "#f6e7cb"
+    bgColor: "#261207"
+    suggestColor: "#e48a45"
+  info:
+    fgColor: "#f7d98e"
+    sectionColor: "#f6e7cb"
+  dialog:
+    fgColor: "#f6e7cb"
+    bgColor: "#261207"
+    buttonFgColor: "#261207"
+    buttonBgColor: "#f7d98e"
+    buttonFocusFgColor: "#261207"
+    buttonFocusBgColor: "#9dc957"
+    labelFgColor: "#ebb944"
+    fieldFgColor: "#f6e7cb"
+  frame:
+    border:
+      fgColor: "#492b1a"
+      focusColor: "#58b98a"
+    menu:
+      fgColor: "#f6e7cb"
+      keyColor: "#e48a45"
+      numKeyColor: "#e48a45"
+    crumbs:
+      fgColor: "#261207"
+      bgColor: "#806c55"
+      activeColor: "#f7d98e"
+    status:
+      newColor: "#f7d98e"
+      modifyColor: "#749ad2"
+      addColor: "#9dc957"
+      errorColor: "#f5502a"
+      highlightColor: "#ebb944"
+      killColor: "#e48a45"
+      completedColor: "#806c55"
+    title:
+      fgColor: "#f6e7cb"
+      bgColor: "#261207"
+      highlightColor: "#ebb944"
+      counterColor: "#e48a45"
+      filterColor: "#f7d98e"
+  views:
+    charts:
+      bgColor: "#261207"
+      defaultDialColors:
+        - "#f7d98e"
+        - "#f5502a"
+      defaultChartColors:
+        - "#f7d98e"
+        - "#f5502a"
+    table:
+      fgColor: "#f6e7cb"
+      bgColor: "#261207"
+      cursorFgColor: "#f6e7cb"
+      cursorBgColor: "#572d14"
+      header:
+        fgColor: "#f6e7cb"
+        bgColor: "#261207"
+        sorterColor: "#9dc957"
+    xray:
+      fgColor: "#f6e7cb"
+      bgColor: "#261207"
+      cursorColor: "#572d14"
+      graphicColor: "#f7d98e"
+    yaml:
+      keyColor: "#749ad2"
+      colonColor: "#9a8467"
+      valueColor: "#f6e7cb"
+    logs:
+      fgColor: "#f6e7cb"
+      bgColor: "#261207"
+      indicator:
+        fgColor: "#f7d98e"
+        bgColor: "#261207"

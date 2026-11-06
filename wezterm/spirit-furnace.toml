@@ -1,0 +1,17 @@
+# Spirit Furnace - wezterm
+# place in ~/.config/wezterm/colors/, then: config.color_scheme = "Spirit Furnace"
+
+[metadata]
+name = "Spirit Furnace"
+author = "Sam Lightbody"
+
+[colors]
+foreground = "#f6e7cb"
+background = "#261207"
+cursor_bg = "#f7d98e"
+cursor_fg = "#261207"
+cursor_border = "#f7d98e"
+selection_fg = "#dcceb4"
+selection_bg = "#572d14"
+ansi = ["#492b1a", "#f5502a", "#9dc957", "#ebb944", "#749ad2", "#ea9297", "#58b98a", "#dcceb4"]
+brights = ["#806c55", "#ff795a", "#bae183", "#ffd579", "#92b3e4", "#fdb0b3", "#81d0a6", "#f6e7cb"]

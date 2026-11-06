@@ -1,0 +1,1 @@
+require("spirit-furnace").load()

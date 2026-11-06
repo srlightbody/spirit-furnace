@@ -1,0 +1,34 @@
+# Spirit Furnace Paper - alacritty (0.13+)
+# spirit furnace: mineral pigments over a furnace-lit dark
+
+[colors.primary]
+background = "#e6dcc6"
+foreground = "#3a2e22"
+
+[colors.cursor]
+text   = "#e6dcc6"
+cursor = "#a92c18"
+
+[colors.selection]
+text       = "#5a4a38"
+background  = "#c9b48e"
+
+[colors.normal]
+black   = "#cabfa6"
+red     = "#a92c18"
+green   = "#3f6414"
+yellow  = "#795a00"
+blue    = "#2e5a9b"
+magenta = "#943e50"
+cyan    = "#1a664a"
+white   = "#5a4a38"
+
+[colors.bright]
+black   = "#8c7c66"
+red     = "#c1341d"
+green   = "#4a741a"
+yellow  = "#846200"
+blue    = "#3668b1"
+magenta = "#a9485c"
+cyan    = "#217656"
+white   = "#3a2e22"

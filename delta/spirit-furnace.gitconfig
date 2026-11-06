@@ -1,0 +1,29 @@
+# Spirit Furnace - delta
+# include from ~/.gitconfig:
+#   [include]
+#       path = ~/.config/delta/spirit-furnace.gitconfig
+# syntax-theme expects spirit-furnace.tmTheme on the bat themes path (bat names themes
+# by file stem).
+
+[delta]
+	syntax-theme = spirit-furnace
+	line-numbers = true
+
+	minus-style = syntax "#5a2210"
+	minus-emph-style = syntax "#792b15"
+	plus-style = syntax "#44401b"
+	plus-emph-style = syntax "#565b27"
+
+	line-numbers-minus-style = "#f5502a"
+	line-numbers-plus-style = "#9dc957"
+	line-numbers-zero-style = "#806c55"
+	line-numbers-left-style = "#492b1a"
+	line-numbers-right-style = "#492b1a"
+
+	file-style = "#f7d98e" bold
+	file-decoration-style = "#492b1a" ul
+	hunk-header-style = "#e48a45" bold
+	hunk-header-decoration-style = "#492b1a" box
+
+	zero-style = syntax
+	whitespace-error-style = "#f5502a" reverse

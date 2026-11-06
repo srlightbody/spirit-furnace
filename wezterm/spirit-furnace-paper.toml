@@ -1,0 +1,17 @@
+# Spirit Furnace Paper - wezterm
+# place in ~/.config/wezterm/colors/, then: config.color_scheme = "Spirit Furnace Paper"
+
+[metadata]
+name = "Spirit Furnace Paper"
+author = "Sam Lightbody"
+
+[colors]
+foreground = "#3a2e22"
+background = "#e6dcc6"
+cursor_bg = "#a92c18"
+cursor_fg = "#e6dcc6"
+cursor_border = "#a92c18"
+selection_fg = "#5a4a38"
+selection_bg = "#c9b48e"
+ansi = ["#cabfa6", "#a92c18", "#3f6414", "#795a00", "#2e5a9b", "#943e50", "#1a664a", "#5a4a38"]
+brights = ["#8c7c66", "#c1341d", "#4a741a", "#846200", "#3668b1", "#a9485c", "#217656", "#3a2e22"]

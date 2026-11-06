@@ -1,0 +1,41 @@
+# Spirit Furnace - lsd
+# place at ~/.config/lsd/colors.yaml (lsd reads it directly), or point lsd at it.
+
+user: "#ebb944"
+group: "#806c55"
+permission:
+  read: "#ea9297"
+  write: "#ebb944"
+  exec: "#f5502a"
+  exec-sticky: "#e48a45"
+  no-access: "#806c55"
+  octal: "#f7d98e"
+  acl: "#f7d98e"
+  context: "#e48a45"
+date:
+  hour-old: "#f7d98e"
+  day-old: "#f7d98e"
+  older: "#806c55"
+size:
+  none: "#806c55"
+  small: "#ea9297"
+  medium: "#ebb944"
+  large: "#f5502a"
+inode:
+  valid: "#e48a45"
+  invalid: "#806c55"
+links:
+  valid: "#e48a45"
+  invalid: "#806c55"
+tree-edge: "#492b1a"
+git-status:
+  default: "#f6e7cb"
+  unmodified: "#806c55"
+  ignored: "#806c55"
+  new-in-index: "#9dc957"
+  new-in-workdir: "#9dc957"
+  typechange: "#ebb944"
+  deleted: "#f5502a"
+  modified: "#ebb944"
+  renamed: "#f7d98e"
+  conflicted: "#f5502a"

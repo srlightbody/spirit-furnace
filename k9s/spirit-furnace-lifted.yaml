@@ -1,0 +1,86 @@
+# Spirit Furnace Lifted - k9s skin
+# place in ~/.config/k9s/skins/spirit-furnace-lifted.yaml, then set in config.yaml:
+#   k9s:
+#     ui:
+#       skin: spirit-furnace-lifted
+
+k9s:
+  body:
+    fgColor: "#f6e7cb"
+    bgColor: "#2e170c"
+    logoColor: "#f7d98e"
+  prompt:
+    fgColor: "#f6e7cb"
+    bgColor: "#2e170c"
+    suggestColor: "#e48a45"
+  info:
+    fgColor: "#f7d98e"
+    sectionColor: "#f6e7cb"
+  dialog:
+    fgColor: "#f6e7cb"
+    bgColor: "#2e170c"
+    buttonFgColor: "#2e170c"
+    buttonBgColor: "#f7d98e"
+    buttonFocusFgColor: "#2e170c"
+    buttonFocusBgColor: "#9dc957"
+    labelFgColor: "#ebb944"
+    fieldFgColor: "#f6e7cb"
+  frame:
+    border:
+      fgColor: "#583926"
+      focusColor: "#58b98a"
+    menu:
+      fgColor: "#f6e7cb"
+      keyColor: "#e48a45"
+      numKeyColor: "#e48a45"
+    crumbs:
+      fgColor: "#2e170c"
+      bgColor: "#806c55"
+      activeColor: "#f7d98e"
+    status:
+      newColor: "#f7d98e"
+      modifyColor: "#749ad2"
+      addColor: "#9dc957"
+      errorColor: "#f5502a"
+      highlightColor: "#ebb944"
+      killColor: "#e48a45"
+      completedColor: "#806c55"
+    title:
+      fgColor: "#f6e7cb"
+      bgColor: "#2e170c"
+      highlightColor: "#ebb944"
+      counterColor: "#e48a45"
+      filterColor: "#f7d98e"
+  views:
+    charts:
+      bgColor: "#2e170c"
+      defaultDialColors:
+        - "#f7d98e"
+        - "#f5502a"
+      defaultChartColors:
+        - "#f7d98e"
+        - "#f5502a"
+    table:
+      fgColor: "#f6e7cb"
+      bgColor: "#2e170c"
+      cursorFgColor: "#f6e7cb"
+      cursorBgColor: "#6d4127"
+      header:
+        fgColor: "#f6e7cb"
+        bgColor: "#2e170c"
+        sorterColor: "#9dc957"
+    xray:
+      fgColor: "#f6e7cb"
+      bgColor: "#2e170c"
+      cursorColor: "#6d4127"
+      graphicColor: "#f7d98e"
+    yaml:
+      keyColor: "#749ad2"
+      colonColor: "#9a8467"
+      valueColor: "#f6e7cb"
+    logs:
+      fgColor: "#f6e7cb"
+      bgColor: "#2e170c"
+      indicator:
+        fgColor: "#f7d98e"
+        bgColor: "#2e170c"

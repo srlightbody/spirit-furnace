@@ -1,0 +1,33 @@
+# Spirit Furnace - lazygit
+# Keep this as a standalone file and layer it over your config via LG_CONFIG_FILE:
+#   export LG_CONFIG_FILE="$HOME/.config/lazygit/config.yml,$HOME/.config/lazygit/spirit-furnace.yml"
+# (rightmost wins) so theme updates never touch your personal config.
+
+gui:
+  theme:
+    activeBorderColor:
+      - "#f7d98e"
+      - bold
+    inactiveBorderColor:
+      - "#806c55"
+    searchingActiveBorderColor:
+      - "#ebb944"
+      - bold
+    optionsTextColor:
+      - "#749ad2"
+    selectedLineBgColor:
+      - "#492b1a"
+    cherryPickedCommitFgColor:
+      - "#f7d98e"
+    cherryPickedCommitBgColor:
+      - "#664534"
+    markedBaseCommitFgColor:
+      - "#ebb944"
+    markedBaseCommitBgColor:
+      - "#664534"
+    unstagedChangesColor:
+      - "#f5502a"
+    defaultFgColor:
+      - "#f6e7cb"
+  authorColors:
+    "*": "#e48a45"

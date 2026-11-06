@@ -1,0 +1,34 @@
+# Spirit Furnace - alacritty (0.13+)
+# spirit furnace: mineral pigments over a furnace-lit dark
+
+[colors.primary]
+background = "#261207"
+foreground = "#f6e7cb"
+
+[colors.cursor]
+text   = "#261207"
+cursor = "#f7d98e"
+
+[colors.selection]
+text       = "#dcceb4"
+background  = "#572d14"
+
+[colors.normal]
+black   = "#492b1a"
+red     = "#f5502a"
+green   = "#9dc957"
+yellow  = "#ebb944"
+blue    = "#749ad2"
+magenta = "#ea9297"
+cyan    = "#58b98a"
+white   = "#dcceb4"
+
+[colors.bright]
+black   = "#806c55"
+red     = "#ff795a"
+green   = "#bae183"
+yellow  = "#ffd579"
+blue    = "#92b3e4"
+magenta = "#fdb0b3"
+cyan    = "#81d0a6"
+white   = "#f6e7cb"
