@@ -30,7 +30,7 @@ core        = "#a9e3c9"
 tribulation = "#f5502a"
 herb        = "#9dc957"
 cursor      = "#a9e3c9"
-# prompt bar (p10k segments) and its secondary pill: grey-jade ink, light enough to read on
+# prompt bar (p10k segments) and its secondary pill: grey-jade ink, so a green branch name still stands out
 bar         = "#2c4037"
 bar_alt     = "#1f332a"
 
