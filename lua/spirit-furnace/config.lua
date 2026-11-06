@@ -1,6 +1,6 @@
 ---@alias Variant "furnace" | "lifted" | "paper"
----@alias Palette { base: string, surface: string, overlay: string, _nc: string, border: string, highlight_low: string, highlight_med: string, highlight_high: string, ash: string, incense: string, text: string, tribulation: string, elixir: string, jade: string, heaven: string, core: string, blossom: string, furnace: string, herb: string, cursor: string, selection: string }
----@alias PaletteColor "base" | "surface" | "overlay" | "border" | "ash" | "incense" | "text" | "tribulation" | "elixir" | "jade" | "heaven" | "core" | "blossom" | "furnace" | "herb" | "cursor" | "selection" | "highlight_low" | "highlight_med" | "highlight_high"
+---@alias Palette { base: string, surface: string, overlay: string, _nc: string, border: string, highlight_low: string, highlight_med: string, highlight_high: string, ash: string, incense: string, text: string, tribulation: string, elixir: string, jade: string, heaven: string, core: string, blossom: string, member: string, furnace: string, herb: string, cursor: string, selection: string }
+---@alias PaletteColor "base" | "surface" | "overlay" | "border" | "ash" | "incense" | "text" | "tribulation" | "elixir" | "jade" | "heaven" | "core" | "blossom" | "member" | "furnace" | "herb" | "cursor" | "selection" | "highlight_low" | "highlight_med" | "highlight_high"
 ---@alias Highlight { link: string, inherit: boolean } | { fg: string, bg: string, sp: string, bold: boolean, italic: boolean, undercurl: boolean, underline: boolean, underdouble: boolean, underdotted: boolean, underdashed: boolean, strikethrough: boolean, inherit: boolean }
 
 local config = {}

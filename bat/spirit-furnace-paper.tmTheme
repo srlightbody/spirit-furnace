@@ -81,6 +81,15 @@
 		</dict>
 		<dict>
 			<key>scope</key>
+			<string>variable.other.member, variable.other.property, variable.other.object.property, support.type.property-name, meta.mapping.key, entity.name.tag.yaml, variable.declaration.hcl</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8a165c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
 			<string>storage, storage.type, storage.modifier</string>
 			<key>settings</key>
 			<dict>

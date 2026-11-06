@@ -18,7 +18,8 @@ system it shares.
 | heaven | `#749ad2` | `#1d4988` | keywords (azurite sky) |
 | jade | `#58b98a` | `#00563b` | functions (qi) |
 | elixir | `#ebb944` | `#634500` | strings, numbers, constants (gamboge pills) |
-| blossom | `#cc95dc` | `#673575` | types, properties (wisteria) |
+| blossom | `#cc95dc` | `#673575` | types (wisteria) |
+| member | `#f27ab8` | `#8a165c` | properties, fields, tfvars/yaml keys (lotus) |
 | furnace | `#e48a45` | `#7b3600` | params, directives, links (refining fire) |
 | core | `#a9e3c9` | `#683f4c` | titles, directories, focus (celadon qi glow; ink-lacquer on paper) |
 | tribulation | `#f5502a` | `#951300` | errors (cinnabar) |

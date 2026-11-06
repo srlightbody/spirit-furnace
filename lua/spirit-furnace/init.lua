@@ -26,7 +26,7 @@ local function set_highlights()
 		["@boolean"] = { link = "Boolean" },
 		["@class"] = { fg = palette.blossom },
 		["@conditional"] = { link = "Conditional" },
-		["@field"] = { fg = palette.blossom },
+		["@field"] = { fg = palette.member },
 		["@include"] = { link = "Include" },
 		["@interface"] = { fg = palette.blossom },
 		["@macro"] = { link = "Macro" },
@@ -280,7 +280,7 @@ local function set_highlights()
 		["@variable.builtin"] = { fg = palette.tribulation, italic = styles.italic, bold = styles.bold },
 		["@variable.parameter"] = { fg = palette.furnace, italic = styles.italic },
 		["@variable.parameter.builtin"] = { fg = palette.furnace, italic = styles.italic, bold = styles.bold },
-		["@variable.member"] = { fg = palette.blossom },
+		["@variable.member"] = { fg = palette.member },
 
 		["@constant"] = { fg = palette.elixir },
 		["@constant.builtin"] = { fg = palette.elixir, bold = styles.bold },
@@ -313,7 +313,7 @@ local function set_highlights()
 
 		["@attribute"] = { fg = palette.furnace },
 		["@attribute.builtin"] = { fg = palette.furnace, bold = styles.bold },
-		["@property"] = { fg = palette.blossom, italic = styles.italic },
+		["@property"] = { fg = palette.member, italic = styles.italic },
 
 		["@function"] = { fg = palette.jade },
 		["@function.builtin"] = { fg = palette.jade, bold = styles.bold },

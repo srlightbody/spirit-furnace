@@ -256,7 +256,7 @@ def build_lua(pal):
     for k in ("ash", "incense", "text"):
         add(f'\t{k} = "{a[k]}",')
     add("")
-    for k in ("tribulation", "elixir", "jade", "heaven", "core", "blossom", "furnace", "herb", "cursor"):
+    for k in ("tribulation", "elixir", "jade", "heaven", "core", "blossom", "member", "furnace", "herb", "cursor"):
         add(f'\t{k} = "{a[k]}",')
     add("")
     add("\t-- bright ANSI, used only by the embedded terminal")
