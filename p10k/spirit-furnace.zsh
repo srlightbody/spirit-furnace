@@ -50,3 +50,11 @@ typeset -g POWERLEVEL9K_STATUS_ERROR_FOREGROUND='#ff795a'
 typeset -g POWERLEVEL9K_STATUS_OK_FOREGROUND='#9dc957'
 typeset -g POWERLEVEL9K_PROMPT_CHAR_OK_{VIINS,VICMD,VIVIS,VIOWR}_FOREGROUND='#9dc957'
 typeset -g POWERLEVEL9K_PROMPT_CHAR_ERROR_{VIINS,VICMD,VIVIS,VIOWR}_FOREGROUND='#ff795a'
+
+# Git status colors for my_git_formatter in ~/.p10k.zsh. Hex on purpose: after
+# %B, zsh re-emits a numeric color as 24-bit (color 10 becomes #00000a).
+typeset -g THEME_GIT_META='#dcceb4'
+typeset -g THEME_GIT_CLEAN='#bae183'
+typeset -g THEME_GIT_MODIFIED='#ebb944'
+typeset -g THEME_GIT_UNTRACKED='#9dc957'
+typeset -g THEME_GIT_CONFLICTED='#ff795a'
