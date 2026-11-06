@@ -42,7 +42,7 @@
       "cursor": "#f7d98e",
       "cursorText": "#2e170c",
       "selectionFg": "#dcceb4",
-      "selectionBg": "#6d4127"
+      "selectionBg": "#363725"
     }
   },
   "light": {
@@ -88,7 +88,7 @@
       "cursor": "#f7d98e",
       "cursorText": "#2e170c",
       "selectionFg": "#dcceb4",
-      "selectionBg": "#6d4127"
+      "selectionBg": "#363725"
     }
   }
 }

@@ -38,7 +38,7 @@ local ramps = {
 	furnace = {
 		base = "#261207", surface = "#33190b", overlay = "#432310", _nc = "#1e0902",
 		highlight_low = "#3f291c", highlight_med = "#664534", highlight_high = "#795846",
-		border = "#492b1a", selection = "#572d14",
+		border = "#492b1a", selection = "#303321",
 		_mode = "dark",
 	},
 	-- lifted: furnace with the floor raised and the steps widened, so the depth
@@ -46,7 +46,7 @@ local ramps = {
 	lifted = {
 		base = "#2e170c", surface = "#412619", overlay = "#5a3824", _nc = "#271107",
 		highlight_low = "#4b3226", highlight_med = "#6c4b3a", highlight_high = "#7f5e4c",
-		border = "#583926", selection = "#6d4127",
+		border = "#583926", selection = "#363725",
 		_mode = "dark",
 	},
 	-- paper: aged rice paper, muted so it never glares. Pigments darkened to ~5:1;

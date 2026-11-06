@@ -58,7 +58,7 @@ hl_med       = "#664534"
 hl_high      = "#795846"
 inactive_tab = "#3f2516"
 border       = "#492b1a"
-selection    = "#572d14"
+selection    = "#303321"
 
 [variants.lifted]
 suffix       = "Lifted"
@@ -75,7 +75,7 @@ hl_med       = "#6c4b3a"
 hl_high      = "#7f5e4c"
 inactive_tab = "#412718"
 border       = "#583926"
-selection    = "#6d4127"
+selection    = "#363725"
 
 [variants.paper]
 suffix       = "Paper"

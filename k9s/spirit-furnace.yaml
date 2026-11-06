@@ -64,7 +64,7 @@ k9s:
       fgColor: "#f6e7cb"
       bgColor: "#261207"
       cursorFgColor: "#f6e7cb"
-      cursorBgColor: "#572d14"
+      cursorBgColor: "#303321"
       header:
         fgColor: "#f6e7cb"
         bgColor: "#261207"
@@ -72,7 +72,7 @@ k9s:
     xray:
       fgColor: "#f6e7cb"
       bgColor: "#261207"
-      cursorColor: "#572d14"
+      cursorColor: "#303321"
       graphicColor: "#f7d98e"
     yaml:
       keyColor: "#749ad2"
