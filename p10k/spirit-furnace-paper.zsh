@@ -14,7 +14,7 @@
   # Put every segment on the lit surface individually. NOT via the global
   # POWERLEVEL9K_BACKGROUND, which fills the whole prompt line into one band.
   for v in ${(k)parameters[(I)POWERLEVEL9K_*_BACKGROUND]}; do
-    typeset -g $v='#99917d'
+    typeset -g $v='#adab83'
   done
   # Drop the generated block-tuned foregrounds; a readable base + accents below.
   for v in ${(k)parameters[(I)POWERLEVEL9K_*_FOREGROUND]}; do
@@ -36,16 +36,16 @@ typeset -g POWERLEVEL9K_RIGHT_SUBSEGMENT_SEPARATOR=' '
 
 # Text accents (shared across variants).
 typeset -g POWERLEVEL9K_DIR_FOREGROUND='#2d2216'
-typeset -g POWERLEVEL9K_DIR_SHORTENED_FOREGROUND='#7c6c56'
+typeset -g POWERLEVEL9K_DIR_SHORTENED_FOREGROUND='#5e503d'
 typeset -g POWERLEVEL9K_DIR_ANCHOR_FOREGROUND='#2d2216'
 typeset -g POWERLEVEL9K_KUBECONTEXT_FOREGROUND='#005d3f'
 typeset -g POWERLEVEL9K_TERRAFORM_FOREGROUND='#7b3600'
-typeset -g POWERLEVEL9K_TERRAFORM_BACKGROUND='#b0aa99'
+typeset -g POWERLEVEL9K_TERRAFORM_BACKGROUND='#9da37d'
 typeset -g POWERLEVEL9K_GCLOUD_FOREGROUND='#723a82'
 typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_FOREGROUND='#634500'
 typeset -g POWERLEVEL9K_BACKGROUND_JOBS_FOREGROUND='#305400'
-typeset -g POWERLEVEL9K_TIME_FOREGROUND='#7c6c56'
-typeset -g POWERLEVEL9K_CONTEXT_FOREGROUND='#7c6c56'
+typeset -g POWERLEVEL9K_TIME_FOREGROUND='#5e503d'
+typeset -g POWERLEVEL9K_CONTEXT_FOREGROUND='#5e503d'
 typeset -g POWERLEVEL9K_STATUS_ERROR_FOREGROUND='#a51000'
 typeset -g POWERLEVEL9K_STATUS_OK_FOREGROUND='#305400'
 typeset -g POWERLEVEL9K_PROMPT_CHAR_OK_{VIINS,VICMD,VIVIS,VIOWR}_FOREGROUND='#305400'
