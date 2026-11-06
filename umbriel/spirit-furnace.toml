@@ -15,7 +15,7 @@ shadow = "#1e09027f"
 
 [colors.border]
 focused = "#a9e3c9ff"
-unfocused = "#664534ff"
+unfocused = "#385644ff"
 outer = "#1e0902ff"
 
 [colors.overview]

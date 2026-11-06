@@ -39,7 +39,7 @@ local ramps = {
 	-- furnace: lacquered rosewood brown, lit from the pill furnace (default)
 	furnace = {
 		base = "#261207", surface = "#33190b", overlay = "#2e2e1d", _nc = "#1e0902",
-		highlight_low = "#3f291c", highlight_med = "#664534", highlight_high = "#795846",
+		highlight_low = "#193626", highlight_med = "#385644", highlight_high = "#4b6957",
 		border = "#35442e", selection = "#003f4b",
 		_mode = "dark",
 	},
@@ -47,7 +47,7 @@ local ramps = {
 	-- survives on a basic laptop LCD instead of crushing to flat brown.
 	lifted = {
 		base = "#2e170c", surface = "#412619", overlay = "#353321", _nc = "#271107",
-		highlight_low = "#4b3226", highlight_med = "#6c4b3a", highlight_high = "#7f5e4c",
+		highlight_low = "#234030", highlight_med = "#3e5c4a", highlight_high = "#516f5d",
 		border = "#3b4832", selection = "#002e3a",
 		_mode = "dark",
 	},
