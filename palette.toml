@@ -30,9 +30,9 @@ core        = "#a9e3c9"
 tribulation = "#f5502a"
 herb        = "#9dc957"
 cursor      = "#a9e3c9"
-# prompt bar (p10k segments) and its secondary pill: ink jade, between deep jade and near-black
-bar         = "#1c3d2d"
-bar_alt     = "#163224"
+# prompt bar (p10k segments) and its secondary pill: grey-jade ink, light enough to read on
+bar         = "#2c4037"
+bar_alt     = "#1f332a"
 
 # bright ANSI (8..15); 8 = ash, 15 = text, plus normal-7 white.
 # ANSI pairs: 1/9 tribulation, 2/10 herb, 3/11 elixir, 4/12 heaven,

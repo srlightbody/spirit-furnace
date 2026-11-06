@@ -14,7 +14,7 @@
   # Put every segment on the lit surface individually. NOT via the global
   # POWERLEVEL9K_BACKGROUND, which fills the whole prompt line into one band.
   for v in ${(k)parameters[(I)POWERLEVEL9K_*_BACKGROUND]}; do
-    typeset -g $v='#1c3d2d'
+    typeset -g $v='#2c4037'
   done
   # Drop the generated block-tuned foregrounds; a readable base + accents below.
   for v in ${(k)parameters[(I)POWERLEVEL9K_*_FOREGROUND]}; do
@@ -40,7 +40,7 @@ typeset -g POWERLEVEL9K_DIR_SHORTENED_FOREGROUND='#75907a'
 typeset -g POWERLEVEL9K_DIR_ANCHOR_FOREGROUND='#f6e7cb'
 typeset -g POWERLEVEL9K_KUBECONTEXT_FOREGROUND='#81d0a6'
 typeset -g POWERLEVEL9K_TERRAFORM_FOREGROUND='#e48a45'
-typeset -g POWERLEVEL9K_TERRAFORM_BACKGROUND='#163224'
+typeset -g POWERLEVEL9K_TERRAFORM_BACKGROUND='#1f332a'
 typeset -g POWERLEVEL9K_GCLOUD_FOREGROUND='#e2b2f0'
 typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_FOREGROUND='#ebb944'
 typeset -g POWERLEVEL9K_BACKGROUND_JOBS_FOREGROUND='#9dc957'

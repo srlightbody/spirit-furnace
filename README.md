@@ -24,7 +24,7 @@ system it shares.
 | tribulation | `#f5502a` | `#951300` | errors (cinnabar) |
 | herb | `#9dc957` | `#305400` | added, ok (spirit herb) |
 | cursor | `#a9e3c9` | `#951300` | qi glow / cinnabar seal |
-| bar | `#1c3d2d` | `#adab83` | prompt bar (ink jade) |
+| bar | `#2c4037` | `#adab83` | prompt bar (grey-jade ink) |
 
 ### 16-color ANSI (furnace)
 
